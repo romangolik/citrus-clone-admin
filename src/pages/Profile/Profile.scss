@@ -1,0 +1,27 @@
+.profile-page {
+  &__content {
+    max-width: 800px;
+  }
+}
+
+.profile-info {
+  &__image-uploader {
+    width: 157px;
+    height: 100%;
+  }
+
+  &__placeholder-icon {
+    width: 50%;
+    height: 50%;
+
+    color: var(--color-white);
+  }
+
+  &__fields {
+    display: grid;
+    flex: 1 1 auto;
+    grid-gap: 15px 20px;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.idea
+.vscode
+.fttemplates
+/build
+node_modules
+
+package-lock.json
+
+.env
+

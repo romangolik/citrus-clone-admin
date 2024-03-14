@@ -1,0 +1,48 @@
+.slideout-panel {
+  width: 100vw;
+  max-width: 1000px;
+  height: 100%;
+
+  &__header,
+  &__content,
+  &__actions {
+    padding: 24px;
+  }
+
+  &__header {
+    z-index: 10;
+
+    box-shadow: 0 0 1px rgba(40, 51, 65, 10%),
+      0 1px 2px rgba(40, 51, 65, 10%),
+      0 1px 3px rgba(40, 51, 65, 10%);
+  }
+
+  &__close-button {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 4px;
+
+    &:hover {
+      background-color: rgba(241, 246, 252, 100%);
+
+      .icon {
+        color: rgba(63, 78, 93, 100%);
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+
+    background-color: rgba(246, 246, 246, 100%);
+  }
+
+  &__actions {
+    box-shadow: 0 0 1px rgba(40, 51, 65, 10%),
+      0 -1px 2px rgba(40, 51, 65, 10%),
+      0 -1px 3px rgba(40, 51, 65, 10%);
+  }
+}

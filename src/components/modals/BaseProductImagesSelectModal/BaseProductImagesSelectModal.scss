@@ -1,0 +1,19 @@
+.base-product-images-select-modal {
+  width: 100%;
+  max-width: 740px;
+
+  &__list {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__actions.modal__actions {
+    justify-content: space-between;
+  }
+
+  &__action-button.MuiButton-root {
+    height: auto;
+    padding: 10px 25px;
+  }
+}

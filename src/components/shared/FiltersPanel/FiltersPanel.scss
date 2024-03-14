@@ -1,0 +1,13 @@
+.filters-panel {
+  height: 90px;
+  padding: 0;
+
+  .filters-container {
+    height: 100%;
+  }
+
+  .search-container {
+    flex: 1 1 auto;
+    padding: 30px;
+  }
+}

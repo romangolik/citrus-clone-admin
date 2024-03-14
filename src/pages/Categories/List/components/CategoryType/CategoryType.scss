@@ -1,0 +1,14 @@
+.category-type {
+  width: 165px;
+  height: 42px;
+
+  border-radius: 8px;
+
+  &_categories {
+    background-color: rgba(30, 175, 98, 10%);
+  }
+
+  &_products {
+    background-color: rgba(15, 85, 89, 15%);
+  }
+}

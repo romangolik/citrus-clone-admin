@@ -1,0 +1,9 @@
+.text-form-field {
+  &_read-only {
+    pointer-events: none;
+
+    .MuiInputBase-root::before {
+      border-bottom-style: dotted;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.empty-list-message {
+  gap: 8px;
+  max-width: 450px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__title,
+  &__paragraph {
+    text-align: center;
+
+    color: var(--color-black);
+  }
+}

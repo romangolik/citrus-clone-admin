@@ -1,0 +1,36 @@
+.product-option {
+  --border: 1px solid rgba(224, 224, 224, 100%);
+
+  justify-content: flex-start;
+  padding: 28px 30px;
+
+  border-top: var(--border);
+
+  &__name {
+    width: 160px;
+    margin-right: 20px;
+  }
+
+  &__values {
+    gap: 6px;
+    margin-right: 20px;
+  }
+
+  &__values-item {
+    &:not(:last-child)::after {
+      content: ",";
+    }
+  }
+
+  &:last-child {
+    border-bottom: var(--border);
+  }
+
+  &:hover {
+    background-color: var(--color-gray-bg);
+  }
+
+  &__actions {
+    flex: none;
+  }
+}

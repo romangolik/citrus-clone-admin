@@ -1,0 +1,34 @@
+.login-page {
+  &__content {
+    width: 340px;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    display: block;
+    width: 100%;
+    margin: 80px auto;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+
+    color: black;
+  }
+
+  &__form {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__button.MuiButton-root {
+    width: 100%;
+    margin-top: 30px;
+  }
+}

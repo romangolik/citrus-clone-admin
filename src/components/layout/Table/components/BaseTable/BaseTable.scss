@@ -1,0 +1,71 @@
+.table {
+  &__head {
+    th {
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 24px;
+    }
+  }
+
+  &__image-cell {
+    box-sizing: initial;
+    width: 110px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 65px;
+      object-fit: contain;
+      object-position: left;
+    }
+  }
+
+  &__row {
+    td {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &:hover {
+      .table__delete-button {
+        visibility: visible;
+      }
+    }
+  }
+
+  &__delete-cell.MuiTableCell-root {
+    width: 24px;
+    padding-right: 0;
+  }
+
+  &__delete-button.MuiButtonBase-root {
+    color: #d6041d;
+    visibility: hidden;
+  }
+
+  &__not-found-data {
+    padding: 80px 0;
+  }
+
+  &__not-found-data-content {
+    width: 470px;
+    margin: 0 auto;
+  }
+
+  &__not-found-data-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  &__not-found-data-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+
+    color: var(--color-black);
+  }
+}

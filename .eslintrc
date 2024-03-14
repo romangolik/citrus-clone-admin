@@ -1,0 +1,116 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["react-hooks", "perfectionist"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { "argsIgnorePattern": "^_" }
+    ],
+    "@typescript-eslint/no-use-before-define": [
+      "error",
+      { "functions": false, "classes": false }
+    ],
+    "@typescript-eslint/space-before-blocks": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "perfectionist/sort-imports": [
+      "error",
+      {
+        "type": "line-length",
+        "order": "asc",
+        "groups": [
+          "react",
+          ["builtin", "external"],
+          "services",
+          "hooks",
+          "store",
+          "pages",
+          "components",
+          "router",
+          "sibling",
+          "parent",
+          "utils",
+          "unknown",
+          "assets",
+          "style"
+        ],
+        "custom-groups": {
+          "value": {
+            "react": ["react"],
+            "services": "@services/**",
+            "store": "@store/**",
+            "router": ["@router", "@router/**"],
+            "pages": "@pages/**",
+            "components": [
+              "@components/**",
+              "./components/**",
+              "../components/**",
+              "../../components/**"
+            ],
+            "utils": [
+              "@utils/**",
+              "./utils/**",
+              "../utils/**",
+              "../../utils/**"
+            ],
+            "assets": "@assets/**"
+          }
+        },
+        "newlines-between": "always"
+      }
+    ],
+    "perfectionist/sort-named-imports": [
+      "error",
+      {
+        "type": "line-length",
+        "order": "asc"
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "moduleDirectory": ["node_modules", "src"],
+        "alias": {
+          "@assets": "./src/assets",
+          "@utils": "./src/utils",
+          "@components": "./src/components",
+          "@pages": "./src/pages",
+          "@router": "./src/router",
+          "@store": "./src/store",
+          "@services": "./src/services"
+        }
+      }
+    }
+  }
+}

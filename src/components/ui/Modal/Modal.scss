@@ -1,0 +1,57 @@
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  position: relative;
+
+  margin: 32px;
+  padding: 40px;
+
+  border-radius: 10px;
+  background-color: var(--color-white);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 5%);
+
+  &__close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    padding: 20px;
+
+    border-radius: 0 10px;
+    opacity: 0.5;
+
+    transition: 0.4s ease all;
+
+    &:hover {
+      color: var(--color-white);
+      background-color: var(--color-red);
+      opacity: 1;
+    }
+  }
+
+  &__close-button-icon {
+    width: 20px;
+    height: 20px;
+
+    color: inherit;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+
+    color: var(--color-black);
+  }
+
+  &__actions {
+    margin-top: 25px;
+
+    & > .MuiButton-root {
+      width: 50%;
+      max-width: 200px;
+    }
+  }
+}

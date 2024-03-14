@@ -1,0 +1,29 @@
+.link {
+  text-decoration: none;
+
+  color: var(--color-link);
+  outline: none;
+  cursor: pointer;
+
+  transition: color 0.3s, border-color 0.3s;
+
+  &__start-icon {
+    margin-right: 12px;
+  }
+
+  &__end-icon {
+    margin-left: 12px;
+  }
+
+  &:hover {
+    color: var(--color-orange-lite);
+  }
+
+  &_dashed {
+    border-bottom: 1px dashed var(--color-link);
+
+    &:hover {
+      border-color: var(--color-orange-lite);
+    }
+  }
+}

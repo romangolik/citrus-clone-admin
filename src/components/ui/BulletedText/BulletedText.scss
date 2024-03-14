@@ -1,0 +1,30 @@
+.bulleted-text {
+  --mark-color: white;
+
+  display: inline-flex;
+
+  &_primary {
+    --mark-color: var(--color-gray-lite);
+  }
+
+  &_secondary {
+    --mark-color: var(--color-dark-green);
+  }
+
+  &_success {
+    --mark-color: var(--color-success);
+  }
+
+  &_error {
+    --mark-color: var(--color-error);
+  }
+
+  &__mark {
+    display: block;
+    flex: none;
+    margin-right: 4px;
+
+    border-radius: 50%; 
+    background-color: var(--mark-color);
+  }
+}

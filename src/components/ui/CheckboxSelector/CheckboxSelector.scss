@@ -1,0 +1,20 @@
+.checkbox-selector {
+  &__search {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+
+    font-size: 14px;
+    line-height: 20px;
+
+    color: var(--color-black-text);
+    border: 1px solid rgba(5, 10, 12, 15%);
+    border-radius: 5px;
+    outline: none;
+  }
+
+  &__list {
+    flex-wrap: nowrap;
+    max-height: 210px;
+  }
+}

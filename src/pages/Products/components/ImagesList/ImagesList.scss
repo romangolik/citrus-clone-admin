@@ -1,0 +1,11 @@
+.images-list {
+  grid-template-columns: repeat(var(--images-column-count, 5), 1fr);
+  max-height: 454px;
+  margin-right: -8px;
+  padding-right: 8px;
+
+  & > .product-image-item:first-child {
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 2;
+  }
+}

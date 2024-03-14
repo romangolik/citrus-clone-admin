@@ -1,0 +1,31 @@
+.product-stickers-select {
+  margin-top: 10px;
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__list {
+    max-height: 177px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      border-radius: 20px;
+      background: #EDEDED;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      border-radius: 15px;
+      background: rgba(5, 10, 12, 15%);
+      cursor: pointer;
+  
+      &:hover {
+        background: rgba(5, 10, 12, 40%);
+      }
+    }
+  }
+}

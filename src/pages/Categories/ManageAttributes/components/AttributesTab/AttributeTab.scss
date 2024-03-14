@@ -1,0 +1,10 @@
+.attributes-tab {
+  &__action-buttons {
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    grid-gap: 10px;
+    max-height: 422px;
+  }
+}

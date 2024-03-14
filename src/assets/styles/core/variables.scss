@@ -1,0 +1,75 @@
+/* stylelint-disable custom-property-empty-line-before */
+:root {
+  --color-white: #ffffff;
+  --color-orange: #ff680a;
+  --color-sidebar: #3f4e5d;
+  --color-black: #000000;
+  --color-red: #f20000;
+  --color-dark-green: #0f5559;
+  --color-orange-lite: #ff8637;
+  --color-gray-lite: rgba(5, 10, 12, 15%);
+
+  --color-success: #1eaf62;
+  --color-success-lite: #23db78;
+  --color-success-dark: #17834a;
+  --color-error:#de0e0e;
+  --color-error-lite: #ff1313;
+  --color-error-dark: #b40c0c;
+
+
+  
+  --color-icons: rgba(63, 78, 93, 60%);
+  --color-gray-text: rgba(0, 0, 0, 54%);
+  --color-black-text: rgba(0, 0, 0, 87%);
+  --color-bg-hover: rgba(63, 78, 93, 5%);
+  --color-chips-enable: rgba(23, 60, 97, 6%);
+  --color-chips-hover: rgba(23, 60, 97, 14%);
+  --color-chips-focused: rgba(23, 60, 97, 16%);
+  --color-chips-pressed: rgba(23, 60, 97, 18%);
+  --color-chips-disabled: rgba(23, 60, 97, 2%);
+  --color-footer: #2c3946;
+
+
+  
+  --color-bg-pressed: rgba(63, 78, 93, 16%);
+  --color-bg-disable: rgba(63, 78, 93, 2%);
+  --color-link: #3b6d9a;
+  --color-link-lite: #80c3ff;
+  --color-yellow: #ffc107;
+  --color-black-text-disable: rgba(0, 0, 0, 35%);
+  --color-gray-pagination: rgba(0, 0, 0, 12%);
+  --color-gray-border: rgba(0, 0, 0, 12%);
+  --color-gray-bg: #edeff2;
+  --color-gray-bg-hover: #e8eaed;
+  --color-gray-border-hover: rgba(0, 0, 0, 22%);
+  --color-lite-gray-divider: rgba(0, 0, 0, 6%);
+  --color-shadow: #001351;
+  --color-tooltip: rgba(3, 2, 24, 70%);
+  --color-white-button: hsla(0deg, 0%, 100%, 80%);
+  --color-favorite: #ff2c55;
+
+  --shadow-1dp: 0px 2px 2px rgba(0, 8, 29, 5%),
+    0px 0px 2px rgba(0, 8, 29, 6%),
+    0px 1px 3px rgba(0, 8, 29, 8%);
+  --shadow-2dp: 0px 3px 4px rgba(0, 8, 29, 5%),
+    0px 2px 4px rgba(0, 8, 29, 6%),
+    0px 1px 5px rgba(0, 8, 29, 8%);
+  --shadow-3dp: 0px 3px 5px rgba(0, 8, 29, 5%),
+    0px 3px 4px rgba(0, 8, 29, 6%),
+    0px 2px 5px rgba(0, 8, 29, 8%);
+  --shadow-4dp: 0px 4px 5px rgba(0, 8, 29, 5%),
+    0px 3px 4px rgba(0, 8, 29, 6%),
+    0px 2px 6px rgba(0, 8, 29, 8%);
+  --shadow-5dp: 0px 6px 8px rgba(0, 8, 29, 5%),
+    0px 3px 10px rgba(0, 8, 29, 6%),
+    0px 3px 5px rgba(0, 8, 29, 8%);
+  --shadow-6dp: 0px 8px 10px rgba(0, 8, 29, 5%),
+    0px 3px 14px rgba(0, 8, 29, 6%),
+    0px 4px 5px rgba(0, 8, 29, 8%);
+  --shadow-7dp: 0px 9px 12px rgba(0, 8, 29, 5%),
+    0px 3px 16px rgba(0, 8, 29, 6%),
+    0px 5px 6px rgba(0, 8, 29, 8%);
+  --shadow-8dp: 0px 12px 17px rgba(0, 8, 29, 5%),
+    0px 5px 22px rgba(0, 8, 29, 6%),
+    0px 7px 8px rgba(0, 8, 29, 8%);
+}

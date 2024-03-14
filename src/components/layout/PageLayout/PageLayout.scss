@@ -1,0 +1,10 @@
+.page-layout {
+  display: grid;
+  margin: 30px 40px 40px;
+
+  &__title {
+    font-style: normal;
+
+    color: var(--color-black);
+  }
+}

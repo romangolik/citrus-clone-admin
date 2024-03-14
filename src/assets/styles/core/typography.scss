@@ -1,0 +1,90 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+h1,
+.h1 {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+
+h2,
+.h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0;
+}
+
+h3,
+.h3 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  letter-spacing: 0.15px;
+}
+
+h4,
+.h4 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.15px;
+}
+
+h5,
+.h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+}
+
+h6, .h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+}
+
+.fz12 {
+  font-size: 12px;
+}
+
+.fz14 {
+  font-size: 14px;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
+.fz17 {
+  font-size: 17px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.light-weight {
+  font-weight: 300;
+}
+
+.regular-weight {
+  font-weight: 400;
+}
+
+.medium-weight {
+  font-weight: 500;
+}
+
+.bold-weight {
+  font-weight: 700;
+}
+
+.black-weight {
+  font-weight: 900;
+}

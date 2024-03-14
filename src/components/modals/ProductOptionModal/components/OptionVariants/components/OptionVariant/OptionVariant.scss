@@ -1,0 +1,15 @@
+.option-variant {
+  position: relative;
+
+  padding: 3px;
+
+  .MuiChip-root {
+    background-color: #EBEBEB;
+  }
+
+  &_over {
+    .MuiChip-root {
+      background-color: #d7d6d6;
+    }
+  }
+}

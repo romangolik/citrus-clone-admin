@@ -1,0 +1,16 @@
+.confirmation-modal {
+  width: 420px;
+
+  &__icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+  }
+
+  &__title {
+    text-align: center;
+
+    color: var(--color-black);
+  }
+}

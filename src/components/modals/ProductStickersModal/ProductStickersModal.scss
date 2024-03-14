@@ -1,0 +1,12 @@
+.product-stickers-modal {
+  width: 100%;
+  max-width: 1200px;
+
+  &__buttons > .MuiButton-root {
+    height: 45px;
+
+    &:not(.MuiLoadingButton-root).Mui-disabled {
+      opacity: 1;
+    }
+  }
+}

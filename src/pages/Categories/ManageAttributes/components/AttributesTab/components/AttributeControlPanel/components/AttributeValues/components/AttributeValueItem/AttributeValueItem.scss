@@ -1,0 +1,17 @@
+.attribute-value-item {
+  &__fields {
+    width: 100%;
+    margin-right: 30px;
+
+    /* stylelint-disable-next-line selector-class-pattern */
+    .text-form-field, .MuiAutocomplete-root {
+      flex: 1 1 calc(100% / 2 - 40px);
+    }
+  }
+
+  &__switch {
+    flex: none;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

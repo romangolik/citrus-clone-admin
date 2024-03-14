@@ -1,0 +1,24 @@
+.edit-category-page {
+  &__content {
+    grid-template-areas:
+      "image icon"
+      "info info";
+    grid-template-columns: 265px 265px 1fr;
+  }
+
+  &__type {
+    grid-area: type;
+  }
+
+  &__image {
+    grid-area: image;
+  }
+
+  &__icon {
+    grid-area: icon;
+  }
+
+  &__info {
+    grid-area: info;
+  }
+}
